@@ -38,6 +38,7 @@ android {
     }
 
     buildFeatures {
+        viewBinding = true
         buildConfig = true
     }
 
@@ -54,5 +55,7 @@ dependencies {
 
     implementation "androidx.fragment:fragment-ktx:$rootProject.fragment_version"
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
-    implementation "com.squareup.retrofit2:converter-scalars:$retrofit_version"
+    implementation "com.squareup.moshi:moshi-kotlin:$moshi_kotlin_version"
+    implementation "com.squareup.retrofit2:converter-moshi:$converter_moshi_version"
+    implementation "io.coil-kt:coil:$coil_version"
 }

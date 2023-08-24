@@ -3,6 +3,7 @@ package com.tarantik.android_course_starter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -13,9 +14,11 @@ import cz.tarantik.android_course_starter.R
 class MoviesListAdapter(): ListAdapter<Movie, MoviesListAdapter.MovieViewHolder>(MovieDiffCallback) {
     class MovieViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val movieNameTextView: TextView
+        val moviePoster: ImageView
 
         init {
             movieNameTextView = view.findViewById(R.id.tv_movie_name)
+            moviePoster = view.findViewById(R.id.iv_movie_poster)
         }
 
         fun bind(movie: Movie) {
