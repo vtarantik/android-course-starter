@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">android-course-starter</string>
+    <string name="movies_list_hello">HELLO FRAGMENT</string>
 </resources>
