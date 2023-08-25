@@ -7,6 +7,7 @@ buildscript {
         moshi_kotlin_version = '1.13.0'
         converter_moshi_version = '2.9.0'
         coil_version = '2.4.0'
+        room_version = '2.5.2'
     }
     repositories {
         google()

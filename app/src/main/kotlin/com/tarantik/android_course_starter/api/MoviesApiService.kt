@@ -1,8 +1,7 @@
-package com.tarantik.android_course_starter
+package com.tarantik.android_course_starter.api
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.tarantik.android_course_starter.util.PopularMovieEntity
 import com.tarantik.android_course_starter.util.PopularMovieEntityResponse
 import cz.tarantik.android_course_starter.BuildConfig
 import okhttp3.Interceptor
